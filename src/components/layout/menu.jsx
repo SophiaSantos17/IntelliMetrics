@@ -3,9 +3,9 @@ import logo from "../../assets/logo.svg";
 
 export default function Header() {
   return (
-    <div className="bg-white">
+    <div className="bg-white text-azul">
       {/* INICIO HEADER */}
-      <nav className="sticky top-0 z-50 w-full bg-white border-gray-200">
+      <nav className="fixed top-0 z-50 w-full bg-white border-gray-200">
         <div className="flex justify-between items-center p-3 px-6 border-b border-slate-200">
           <img className="w-8 h-8" src={logo} alt="logo" />
           <img
@@ -18,7 +18,7 @@ export default function Header() {
       {/* FIM HEADER */}
 
       {/* INICIO MENU LATERAL */}
-      <aside className="fixed left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-white border-r border-slate-200">
+      <aside className="fixed left-0 top-16 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-white border-r border-slate-200">
         <div className="h-full px-4 py-4 overflow-y-auto">
           <ul className="space-y-2 font-medium">
             <li>
