@@ -1,7 +1,7 @@
 import logo from "../../assets/logo.svg";
 
 
-export default function Header() {
+export default function Menu() {
   return (
     <div className="bg-white text-azul">
       {/* INICIO HEADER */}
